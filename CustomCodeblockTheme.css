@@ -1,0 +1,56 @@
+
+body {
+  margin: 20px;
+}
+
+body .gist .gist-file {
+  margin-bottom: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 25;
+}
+
+body .gist .gist-data {
+  border-bottom: none;
+  border-radius: 25;
+  background-color: #393f45;
+}
+
+body .gist .blob-wrapper {
+  border-radius: 25;
+}
+
+body .gist .highlight {
+  background-color: transparent;
+  font-family: 'Consolas', monospace;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+body .gist .highlight td {
+  padding: 5px 15px !important;
+  line-height: 1;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+body .gist tr:first-child td {
+  padding-top: 15px !important;
+}
+
+body .gist tr:last-child td {
+  padding-bottom: 15px !important;
+}
+
+body .gist .blob-num {
+  background-color: #464c52;
+  pointer-events: none;
+  color:white;
+}
+
+body .gist .blob-code {
+    filter: hue-rotate(1deg) brightness(350%) contrast(50%) saturate(250%);
+}
+
+body .gist .gist-meta {
+  display: none;
+}
